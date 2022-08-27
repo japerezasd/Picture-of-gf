@@ -1,0 +1,168 @@
+
+
+.side-bar {
+    position: fixed;
+    background-color: rgb(255, 240, 242);
+    left: 0;
+    bottom: 0;
+    top: 100px;
+    width: 300px;
+    display: flex;
+    z-index: 0;
+    flex-direction: column;
+}
+
+.top-side {
+    height: 130px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(253, 221, 227);
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.left-arrow-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.left-arrow {
+    width:82px;
+    transform: rotate(180deg);
+    padding-top: 5px;
+    cursor: pointer;
+    
+    
+}
+.left-arrow:hover {
+    opacity: 0.7;
+}
+.left-arrow:active {
+    opacity: 1;
+}
+.left-arrow-button {
+    background-color: transparent;
+    border: none;
+   
+}
+
+.right-arrow-box {
+   display: flex;
+  flex: 1;
+  justify-content: center;
+   
+}
+.right-arrow {
+    width: 80px;
+    cursor: pointer;
+    
+}
+.right-arrow:hover {
+    opacity: 0.7;
+}
+.right-arrow:active {
+    opacity: 1;
+}
+
+.right-arrow-button {
+    background-color: transparent;
+    border: none;
+    margin-top: -4px;   
+}
+
+.middle-bar-side {
+    display: grid;  
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 60px 60px;
+    justify-content: end;
+    position: relative;  
+}
+
+
+.sidebar-topleft,.sidebar-topright,.sidebar-bottomleft,.sidebar-bottomright {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+
+.facebook-link,.gmail-link,.instagram-link,.tiktok-link {
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.gmail-link {
+    
+    height: 55px;
+
+}
+.follow-me {
+    position: absolute;
+    font-family: DynaPuff, Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.specific-address {
+    font-family: DynaPuff,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.sidebar-bottom {
+    height: 20px;
+    display: flex;
+    margin-top: 20px;
+   
+}
+.hobby,.skills {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 20px;
+    font-family: DynaPuff,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.sidebar-bottom-pictures {
+    width: 300px;
+    margin-bottom: 15px;
+    
+}
+
+.mobile-legends {
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.cooking {
+    width: 55px;
+    margin-left: 95px;
+}
+.sidebar-very-bottom {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: DynaPuff,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 25px;
+}
+.joshua {
+    margin-left: 45px;
+    cursor: pointer;
+    color: black;
+}

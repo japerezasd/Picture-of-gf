@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding-left: 300px;
+    padding-top: 110px;
+    position: relative;
+    background-image: url(images/background-beauty-cute-flower-Favim.com-1953699.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+}

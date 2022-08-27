@@ -1,0 +1,93 @@
+.main-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    
+    
+}
+.containers {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: pink;
+    border-radius: 10px;
+}
+.thumbnail-picture-box {
+    display: flex;
+    justify-content: space-evenly;  
+}
+.thumbnail-picture{
+    box-shadow: 2px 8px 60px rgb(7, 7, 7);
+    border: 1px solid black; 
+}
+.pictures {
+    width: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.pictures3 {
+    width: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 425.10px;
+    
+}
+.pictures4 {
+    height: 425.10px;
+    
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    
+   
+}
+.star {
+    width: 30px;
+    margin-left: 40px;
+    
+    display: inline-block;
+}
+
+.rating-count {
+    font-size: 30px;
+    display: inline-block;
+}
+.rate {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.posted {
+    margin-left: 40px;
+    color: rgb(122, 122, 122);
+    font-size: 10px;
+}
+.react-bar {
+    display: flex;
+    
+    margin: 15px 5px 7px 5px;
+    
+}
+.like-button,.comment-button,.share-button  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   
+    border-top: none;
+    border-bottom:none ;
+    border-radius: 5px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    cursor: pointer;
+}
+
+
+
+
+.heart,.comment,.share {
+    width: 20px;
+}
