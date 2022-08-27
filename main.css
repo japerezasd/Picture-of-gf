@@ -6,6 +6,14 @@
     
     
 }
+
+@media (max-width: 600px) {
+    .main-page{
+        grid-template-columns: 1fr;
+    }
+}
+
+
 .containers {
     margin-left: 10px;
     margin-right: 10px;
